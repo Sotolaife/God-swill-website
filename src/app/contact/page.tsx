@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { placeholderImages } from "@/lib/placeholder-images";
 import ContactForm from "@/components/contact-form";
+import { WhatsAppIcon } from "@/components/icons";
 
 export default function ContactPage() {
     const profileImage = placeholderImages.find(p => p.id === 'godswill-portrait-small');
@@ -46,10 +47,13 @@ export default function ContactPage() {
                              )}
                             <h3 className="text-2xl font-bold">Prefer a direct chat?</h3>
                             <p className="text-muted-foreground mt-2 mb-6 max-w-sm">
-                                Click the button below to email me directly for a faster response.
+                                Click the button below to message me on WhatsApp for a faster response.
                             </p>
                             <Button asChild size="lg" className="w-full">
-                                <Link href={CONTACT_LINK} target="_blank">Contact Me</Link>
+                                <Link href={CONTACT_LINK} target="_blank">
+                                    <WhatsAppIcon className="mr-2 h-5 w-5" />
+                                    Contact on WhatsApp
+                                </Link>
                             </Button>
                             <p className="text-sm text-muted-foreground mt-4">Average response time: under 2 hours</p>
                         </div>

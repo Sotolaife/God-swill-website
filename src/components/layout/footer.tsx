@@ -1,12 +1,7 @@
 import { SOCIAL_LINKS, CONTACT_LINK } from "@/lib/constants";
 import { Linkedin, Mail, MessageCircle, Twitter } from "lucide-react";
 import Link from "next/link";
-
-const TikTokIcon = (props: React.SVGProps<SVGSVGElement>) => (
-    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" {...props}>
-        <path d="M11.62 8.43a4.03 4.03 0 1 0-4.03-4.03v6.5A4.03 4.03 0 1 0 12 15.4a4.03 4.03 0 0 0 4.03-4.03V4.1h-4.03"/>
-    </svg>
-);
+import { TikTokIcon, WhatsAppIcon } from "@/components/icons";
 
 
 export default function Footer() {
@@ -32,8 +27,8 @@ export default function Footer() {
             <Link href={SOCIAL_LINKS.twitter} target="_blank" aria-label="Twitter" className="text-muted-foreground hover:text-primary">
                 <Twitter className="h-5 w-5" />
             </Link>
-             <Link href={CONTACT_LINK} target="_blank" aria-label="Email" className="text-muted-foreground hover:text-primary">
-                <Mail className="h-5 w-5" />
+             <Link href={CONTACT_LINK} target="_blank" aria-label="WhatsApp" className="text-muted-foreground hover:text-primary">
+                <WhatsAppIcon className="h-5 w-5" />
             </Link>
         </div>
       </div>

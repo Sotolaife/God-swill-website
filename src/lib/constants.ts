@@ -1,4 +1,4 @@
-export const CONTACT_LINK = "mailto:sotolaifeoluwa@gmail.com";
+export const CONTACT_LINK = "https://wa.me/09026794821";
 
 export const NAV_LINKS = [
   { href: "/", label: "Home" },
