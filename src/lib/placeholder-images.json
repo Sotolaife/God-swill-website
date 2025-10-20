@@ -1,3 +1,52 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "godswill-portrait",
+      "description": "Professional portrait of Godswill Etuk",
+      "imageUrl": "https://images.unsplash.com/photo-1568602471122-7832951cc4c5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxwcm9mZXNzaW9uYWwlMjBtYW58ZW58MHx8fHwxNzYwOTU0NDM0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "professional man"
+    },
+    {
+      "id": "godswill-portrait-small",
+      "description": "Small professional portrait of Godswill Etuk",
+      "imageUrl": "https://images.unsplash.com/photo-1680104073088-ad3ef1ba4a1c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxwcm9mZXNzaW9uYWwlMjBtYW4lMjBmYWNlfGVufDB8fHx8MTc2MDk2NzI5Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "professional man face"
+    },
+    {
+      "id": "about-hero",
+      "description": "Subtle hero image for the about page",
+      "imageUrl": "https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxvZmZpY2UlMjB3b3Jrc3BhY2V8ZW58MHx8fHwxNzYwODU0MDQxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "office workspace"
+    },
+    {
+      "id": "case-study-visual-1",
+      "description": "Visual for a case study, showing analytics",
+      "imageUrl": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxhbmFseXRpY3MlMjBkYXNoYm9hcmR8ZW58MHx8fHwxNzYwODcxOTU3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "analytics dashboard"
+    },
+    {
+      "id": "case-study-visual-2",
+      "description": "Visual for a case study, showing marketing results",
+      "imageUrl": "https://images.unsplash.com/photo-1671212684958-2e59c6bafaea?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtYXJrZXRpbmclMjByZXN1bHRzfGVufDB8fHx8MTc2MDk2NzI5Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "marketing results"
+    },
+    {
+      "id": "case-study-visual-3",
+      "description": "Visual for a case study, showing a chart graph",
+      "imageUrl": "https://images.unsplash.com/photo-1730382624360-9cf5609c8364?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjaGFydCUyMGdyYXBofGVufDB8fHx8MTc2MDk2MTIyOXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "chart graph"
+    },
+    {
+      "id": "avatar1",
+      "description": "Avatar for a client testimonial",
+      "imageUrl": "https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxwZXJzb24lMjBmYWNlfGVufDB8fHx8MTc2MDg1NDQyOXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "person face"
+    },
+    {
+      "id": "avatar2",
+      "description": "Avatar for another client testimonial",
+      "imageUrl": "https://images.unsplash.com/photo-1521146764736-56c929d59c83?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxwZXJzb24lMjBmYWNlfGVufDB8fHx8MTc2MDg1NDQyOXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "person face"
+    }
+  ]
 }
