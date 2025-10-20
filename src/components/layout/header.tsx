@@ -2,7 +2,7 @@
 
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
-import { NAV_LINKS, WHATSAPP_LINK } from "@/lib/constants";
+import { NAV_LINKS, CONTACT_LINK } from "@/lib/constants";
 import { useIsMobile } from "@/hooks/use-mobile";
 import { Menu, MessageCircle, X } from "lucide-react";
 import Link from "next/link";
@@ -62,7 +62,7 @@ export default function Header() {
                     ))}
                   </nav>
                   <Button asChild className="mt-auto">
-                    <Link href={WHATSAPP_LINK} target="_blank" onClick={() => setIsOpen(false)}>Message on WhatsApp</Link>
+                    <Link href={CONTACT_LINK} target="_blank" onClick={() => setIsOpen(false)}>Contact Me</Link>
                   </Button>
                 </div>
               </SheetContent>
@@ -86,8 +86,8 @@ export default function Header() {
             </nav>
             <div className="flex flex-1 items-center justify-end gap-4">
               <Button asChild>
-                <Link href={WHATSAPP_LINK} target="_blank">
-                  Message on WhatsApp
+                <Link href={CONTACT_LINK} target="_blank">
+                  Contact Me
                 </Link>
               </Button>
             </div>

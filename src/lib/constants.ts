@@ -1,4 +1,4 @@
-export const WHATSAPP_LINK = "https://wa.link/isneod";
+export const CONTACT_LINK = "mailto:sotolaifeoluwa@gmail.com";
 
 export const NAV_LINKS = [
   { href: "/", label: "Home" },

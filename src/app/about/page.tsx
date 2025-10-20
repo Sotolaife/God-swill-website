@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { WHATSAPP_LINK } from "@/lib/constants";
+import { CONTACT_LINK } from "@/lib/constants";
 import { placeholderImages } from "@/lib/placeholder-images";
 import { Award, Target, TrendingUp } from "lucide-react";
 import Image from "next/image";
@@ -107,7 +107,7 @@ export default function AboutPage() {
         <div className="container mx-auto text-center px-4">
           <h2 className="text-3xl md:text-5xl font-bold">Let's build your brand on TikTok.</h2>
           <Button asChild size="lg" className="mt-8">
-            <Link href={WHATSAPP_LINK} target="_blank">Contact Me on WhatsApp</Link>
+            <Link href={CONTACT_LINK} target="_blank">Contact Me</Link>
           </Button>
         </div>
       </section>

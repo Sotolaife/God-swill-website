@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
-import { WHATSAPP_LINK } from "@/lib/constants";
+import { CONTACT_LINK } from "@/lib/constants";
 import { ArrowRight, CheckCircle, BarChart, Users, TrendingUp, Star } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
@@ -54,8 +54,8 @@ export default function Home() {
               I help brands like yours leverage the power of TikTok advertising to achieve measurable growth and a powerful return on investment.
             </p>
             <Button asChild size="lg" className="shadow-lg">
-              <Link href={WHATSAPP_LINK} target="_blank">
-                Message on WhatsApp <ArrowRight className="ml-2 h-5 w-5" />
+              <Link href={CONTACT_LINK} target="_blank">
+                Contact Me <ArrowRight className="ml-2 h-5 w-5" />
               </Link>
             </Button>
           </div>
@@ -133,7 +133,7 @@ export default function Home() {
           </div>
           <div className="text-center mt-12">
             <Button asChild size="lg">
-              <Link href={WHATSAPP_LINK} target="_blank">Get Your Free Proposal</Link>
+              <Link href={CONTACT_LINK} target="_blank">Get Your Free Proposal</Link>
             </Button>
           </div>
         </div>
@@ -208,7 +208,7 @@ export default function Home() {
             Let's talk. I'll show you how we can achieve exceptional results together.
           </p>
           <Button asChild size="lg" className="mt-8 shadow-lg">
-            <Link href={WHATSAPP_LINK} target="_blank">
+            <Link href={CONTACT_LINK} target="_blank">
               Schedule Your Free Strategy Call <ArrowRight className="ml-2 h-5 w-5" />
             </Link>
           </Button>

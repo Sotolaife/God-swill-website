@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
-import { WHATSAPP_LINK } from "@/lib/constants";
+import { CONTACT_LINK } from "@/lib/constants";
 import { ArrowRight, BarChart, CheckCircle, ShieldCheck, TrendingUp, Zap } from "lucide-react";
 import Link from "next/link";
 
@@ -82,7 +82,7 @@ export default function ServicesPage() {
                                 </div>
                                 <div className="mt-6">
                                      <Button asChild size="lg">
-                                        <Link href={WHATSAPP_LINK} target="_blank">Discuss This Service</Link>
+                                        <Link href={CONTACT_LINK} target="_blank">Discuss This Service</Link>
                                     </Button>
                                 </div>
                             </div>
@@ -129,7 +129,7 @@ export default function ServicesPage() {
             Let's chat. A short conversation is the best way to determine how I can best help you achieve your goals.
           </p>
           <Button asChild size="lg" className="mt-8 shadow-lg">
-            <Link href={WHATSAPP_LINK} target="_blank">
+            <Link href={CONTACT_LINK} target="_blank">
               Book Your Free Consultation <ArrowRight className="ml-2 h-5 w-5" />
             </Link>
           </Button>

@@ -1,5 +1,5 @@
-import { SOCIAL_LINKS, WHATSAPP_LINK } from "@/lib/constants";
-import { Linkedin, MessageCircle, Twitter } from "lucide-react";
+import { SOCIAL_LINKS, CONTACT_LINK } from "@/lib/constants";
+import { Linkedin, Mail, MessageCircle, Twitter } from "lucide-react";
 import Link from "next/link";
 
 const TikTokIcon = (props: React.SVGProps<SVGSVGElement>) => (
@@ -32,8 +32,8 @@ export default function Footer() {
             <Link href={SOCIAL_LINKS.twitter} target="_blank" aria-label="Twitter" className="text-muted-foreground hover:text-primary">
                 <Twitter className="h-5 w-5" />
             </Link>
-             <Link href={WHATSAPP_LINK} target="_blank" aria-label="WhatsApp" className="text-muted-foreground hover:text-primary">
-                <MessageCircle className="h-5 w-5" />
+             <Link href={CONTACT_LINK} target="_blank" aria-label="Email" className="text-muted-foreground hover:text-primary">
+                <Mail className="h-5 w-5" />
             </Link>
         </div>
       </div>

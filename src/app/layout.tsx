@@ -5,7 +5,7 @@ import { cn } from "@/lib/utils";
 import { Toaster } from "@/components/ui/toaster";
 import Header from "@/components/layout/header";
 import Footer from "@/components/layout/footer";
-import FloatingWhatsAppButton from "@/components/layout/floating-whatsapp-button";
+import FloatingContactButton from "@/components/layout/floating-contact-button";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
@@ -40,7 +40,7 @@ export default function RootLayout({
       >
         <Header />
         <main className="flex-1">{children}</main>
-        <FloatingWhatsAppButton />
+        <FloatingContactButton />
         <Footer />
         <Toaster />
       </body>

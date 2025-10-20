@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { WHATSAPP_LINK } from "@/lib/constants";
+import { CONTACT_LINK } from "@/lib/constants";
 import Image from "next/image";
 import Link from "next/link";
 import { placeholderImages } from "@/lib/placeholder-images";
@@ -32,7 +32,7 @@ export default function ContactPage() {
                             <p className="text-muted-foreground mb-6">Fill out the form and I'll get back to you promptly.</p>
                             <ContactForm />
                         </div>
-                        {/* Right Column: WhatsApp */}
+                        {/* Right Column: Direct Contact */}
                         <div className="bg-muted rounded-xl p-8 flex flex-col items-center text-center justify-center">
                              {profileImage && (
                                 <Image
@@ -46,10 +46,10 @@ export default function ContactPage() {
                              )}
                             <h3 className="text-2xl font-bold">Prefer a direct chat?</h3>
                             <p className="text-muted-foreground mt-2 mb-6 max-w-sm">
-                                Click the button below to message me directly on WhatsApp for a faster response.
+                                Click the button below to email me directly for a faster response.
                             </p>
                             <Button asChild size="lg" className="w-full">
-                                <Link href={WHATSAPP_LINK} target="_blank">Message on WhatsApp</Link>
+                                <Link href={CONTACT_LINK} target="_blank">Contact Me</Link>
                             </Button>
                             <p className="text-sm text-muted-foreground mt-4">Average response time: under 2 hours</p>
                         </div>

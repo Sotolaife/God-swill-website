@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
-import { WHATSAPP_LINK } from "@/lib/constants";
+import { CONTACT_LINK } from "@/lib/constants";
 import { placeholderImages } from "@/lib/placeholder-images";
 import { ArrowRight, BarChart, DollarSign, Users } from "lucide-react";
 import Image from "next/image";
@@ -98,7 +98,7 @@ export default function CaseStudiesPage() {
                         </CardContent>
                         <CardFooter className="p-0 mt-8">
                              <Button asChild>
-                                <Link href={WHATSAPP_LINK} target="_blank">Replicate These Results</Link>
+                                <Link href={CONTACT_LINK} target="_blank">Replicate These Results</Link>
                             </Button>
                         </CardFooter>
                     </div>
@@ -119,7 +119,7 @@ export default function CaseStudiesPage() {
             Ready to see what's possible for your brand? Let's connect and build a strategy for your success.
           </p>
           <Button asChild size="lg" className="mt-8 shadow-lg">
-            <Link href={WHATSAPP_LINK} target="_blank">
+            <Link href={CONTACT_LINK} target="_blank">
               Get My Custom Strategy <ArrowRight className="ml-2 h-5 w-5" />
             </Link>
           </Button>
